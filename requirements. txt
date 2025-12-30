@@ -1,0 +1,29 @@
+# Core Python (all standard libraries, listed for reference only)
+# No installation needed for these:
+# random, time, json, threading, socket, select, sys, os, datetime
+
+# Optional dependencies for enhanced features
+
+# For potential web interface or online features
+flask>=3.0.0             # Lightweight web framework for online play dashboard
+requests>=2.31.0         # For making HTTP requests if adding API features
+
+# For testing (optional)
+pytest>=7.4.0            # Testing framework
+pytest-cov>=4.1.0        # Test coverage reporting
+
+# For development and packaging
+setuptools>=68.0.0       # For packaging the game
+wheel>=0.41.0            # For building distributions
+twine>=4.0.0             # For uploading to PyPI
+
+# For enhanced terminal experience (optional)
+colorama>=0.4.6          # Cross-platform colored terminal text (Windows support)
+blessed>=1.20.0          # Advanced terminal handling
+pyfiglet>=0.8.post1      # ASCII art text banners
+
+# For game data persistence (optional)
+python-dotenv>=1.0.0     # Load environment variables from .env file
+
+# For performance profiling (optional)
+memory-profiler>=0.61.0  # Memory usage profiling
