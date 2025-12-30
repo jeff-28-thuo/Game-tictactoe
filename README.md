@@ -54,7 +54,7 @@ git clone https://github.com/jeff-28-thuo/Game-tictactoe.git
 cd Game-tictactoe
 
 # Run the game
-python main.py
+python Tictac toe.py
 
 # Or use the launcher script
 ./run.sh  # Linux/macOS
